@@ -61,8 +61,8 @@
 - (NSArray *)transferItemArray
 {
     KLFTPAccount * account = [[KLFTPAccount alloc] init];
-    [account setUserName:@"king"];
-    [account setPassword:@"723114"];
+    [account setUserName:@"ftpUser"];
+    [account setPassword:@"ftpPassword"];
     
     NSString * downloadURLStr = @"ftp://10.10.92.99/item1.dmg";
     downloadURLStr = [downloadURLStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -82,7 +82,6 @@
     [uploadItem setSrcURL:localUrlUp1];
     [uploadItem setDestURL:ftpUploadURL1];
     [uploadItem setFileSize:72534528];
-    [uploadItem setTransferType:KLFTPTransferTypeUpload];
     [uploadItem setAccount:account];
     
     return [NSArray arrayWithObjects:downloadItem,uploadItem, nil];
