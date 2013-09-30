@@ -15,7 +15,8 @@ KLFTPHelper是一个iOS版本的FTP传输工具，支持以下特性:<br>
 * 使用批任务<br>
 传输类为KLFTPHelper，它负责传输由IDFFTPTask定义的批任务(批任务包含多个item)
 
-####使用单个文件传输示例
+##示例
+####使用单个文件传输
 
     //1.Config FTP Account
     KLFTPAccount * account = [[KLFTPAccount alloc] init];
