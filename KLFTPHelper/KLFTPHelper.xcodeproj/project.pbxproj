@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801BD2AF17C647A30084DEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801BD2AE17C647A30084DEEB /* Foundation.framework */; };
+		805D5B5F17F83023008BA4E9 /* KLFTPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B4917F83023008BA4E9 /* KLFTPHelper.m */; };
+		805D5B6017F83023008BA4E9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B4C17F83023008BA4E9 /* GCDAsyncSocket.m */; };
+		805D5B6117F83023008BA4E9 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B4E17F83023008BA4E9 /* GCDAsyncUdpSocket.m */; };
+		805D5B6217F83023008BA4E9 /* KLFTPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5117F83023008BA4E9 /* KLFTPAccount.m */; };
+		805D5B6317F83023008BA4E9 /* KLFTPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5317F83023008BA4E9 /* KLFTPTask.m */; };
+		805D5B6417F83023008BA4E9 /* KLFTPTransferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5517F83023008BA4E9 /* KLFTPTransferItem.m */; };
+		805D5B6517F83023008BA4E9 /* KLFTPDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5817F83023008BA4E9 /* KLFTPDownloader.m */; };
+		805D5B6617F83023008BA4E9 /* KLFTPTaskTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5A17F83023008BA4E9 /* KLFTPTaskTransfer.m */; };
+		805D5B6717F83023008BA4E9 /* KLFTPTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5C17F83023008BA4E9 /* KLFTPTransfer.m */; };
+		805D5B6817F83023008BA4E9 /* KLFTPUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5B5E17F83023008BA4E9 /* KLFTPUploader.m */; };
+		80A9201617F8360600D84337 /* KLFTPDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B4617F83023008BA4E9 /* KLFTPDefine.h */; };
+		80A9201717F8360A00D84337 /* KLFTPHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B4817F83023008BA4E9 /* KLFTPHelper.h */; };
+		80A9201817F8361500D84337 /* KLFTPTask.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B5217F83023008BA4E9 /* KLFTPTask.h */; };
+		80A9201D17F83E3200D84337 /* KLFTPAccount.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B5017F83023008BA4E9 /* KLFTPAccount.h */; };
+		80A9201E17F83E3D00D84337 /* KLFTPTransferItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B5417F83023008BA4E9 /* KLFTPTransferItem.h */; };
+		80A9201F17F83E4400D84337 /* KLFTPTransfer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 805D5B5B17F83023008BA4E9 /* KLFTPTransfer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		801BD2A917C647A30084DEEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				80A9201F17F83E4400D84337 /* KLFTPTransfer.h in CopyFiles */,
+				80A9201E17F83E3D00D84337 /* KLFTPTransferItem.h in CopyFiles */,
+				80A9201D17F83E3200D84337 /* KLFTPAccount.h in CopyFiles */,
+				80A9201817F8361500D84337 /* KLFTPTask.h in CopyFiles */,
+				80A9201717F8360A00D84337 /* KLFTPHelper.h in CopyFiles */,
+				80A9201617F8360600D84337 /* KLFTPDefine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		801BD2AB17C647A30084DEEB /* libKLFTPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKLFTPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		801BD2AE17C647A30084DEEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		801BD2BC17C647A30084DEEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		801BD2BF17C647A30084DEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		805D5B4617F83023008BA4E9 /* KLFTPDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPDefine.h; sourceTree = "<group>"; };
+		805D5B4717F83023008BA4E9 /* KLFTPHelper-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KLFTPHelper-Prefix.pch"; sourceTree = "<group>"; };
+		805D5B4817F83023008BA4E9 /* KLFTPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPHelper.h; sourceTree = "<group>"; };
+		805D5B4917F83023008BA4E9 /* KLFTPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPHelper.m; sourceTree = "<group>"; };
+		805D5B4B17F83023008BA4E9 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		805D5B4C17F83023008BA4E9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		805D5B4D17F83023008BA4E9 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		805D5B4E17F83023008BA4E9 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		805D5B5017F83023008BA4E9 /* KLFTPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPAccount.h; sourceTree = "<group>"; };
+		805D5B5117F83023008BA4E9 /* KLFTPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPAccount.m; sourceTree = "<group>"; };
+		805D5B5217F83023008BA4E9 /* KLFTPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPTask.h; sourceTree = "<group>"; };
+		805D5B5317F83023008BA4E9 /* KLFTPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPTask.m; sourceTree = "<group>"; };
+		805D5B5417F83023008BA4E9 /* KLFTPTransferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPTransferItem.h; sourceTree = "<group>"; };
+		805D5B5517F83023008BA4E9 /* KLFTPTransferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPTransferItem.m; sourceTree = "<group>"; };
+		805D5B5717F83023008BA4E9 /* KLFTPDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPDownloader.h; sourceTree = "<group>"; };
+		805D5B5817F83023008BA4E9 /* KLFTPDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPDownloader.m; sourceTree = "<group>"; };
+		805D5B5917F83023008BA4E9 /* KLFTPTaskTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPTaskTransfer.h; sourceTree = "<group>"; };
+		805D5B5A17F83023008BA4E9 /* KLFTPTaskTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPTaskTransfer.m; sourceTree = "<group>"; };
+		805D5B5B17F83023008BA4E9 /* KLFTPTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPTransfer.h; sourceTree = "<group>"; };
+		805D5B5C17F83023008BA4E9 /* KLFTPTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPTransfer.m; sourceTree = "<group>"; };
+		805D5B5D17F83023008BA4E9 /* KLFTPUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFTPUploader.h; sourceTree = "<group>"; };
+		805D5B5E17F83023008BA4E9 /* KLFTPUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFTPUploader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801BD2A817C647A30084DEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801BD2AF17C647A30084DEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801BD2A217C647A30084DEEB = {
+			isa = PBXGroup;
+			children = (
+				805D5B4517F83023008BA4E9 /* KLFTPHelper */,
+				801BD2AD17C647A30084DEEB /* Frameworks */,
+				801BD2AC17C647A30084DEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801BD2AC17C647A30084DEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801BD2AB17C647A30084DEEB /* libKLFTPHelper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801BD2AD17C647A30084DEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801BD2AE17C647A30084DEEB /* Foundation.framework */,
+				801BD2BC17C647A30084DEEB /* XCTest.framework */,
+				801BD2BF17C647A30084DEEB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		805D5B4517F83023008BA4E9 /* KLFTPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				805D5B4617F83023008BA4E9 /* KLFTPDefine.h */,
+				805D5B4717F83023008BA4E9 /* KLFTPHelper-Prefix.pch */,
+				805D5B4817F83023008BA4E9 /* KLFTPHelper.h */,
+				805D5B4917F83023008BA4E9 /* KLFTPHelper.m */,
+				805D5B4F17F83023008BA4E9 /* KLTask */,
+				805D5B5617F83023008BA4E9 /* KLTransferModule */,
+				805D5B4A17F83023008BA4E9 /* KLSocket */,
+			);
+			path = KLFTPHelper;
+			sourceTree = "<group>";
+		};
+		805D5B4A17F83023008BA4E9 /* KLSocket */ = {
+			isa = PBXGroup;
+			children = (
+				805D5B4B17F83023008BA4E9 /* GCDAsyncSocket.h */,
+				805D5B4C17F83023008BA4E9 /* GCDAsyncSocket.m */,
+				805D5B4D17F83023008BA4E9 /* GCDAsyncUdpSocket.h */,
+				805D5B4E17F83023008BA4E9 /* GCDAsyncUdpSocket.m */,
+			);
+			path = KLSocket;
+			sourceTree = "<group>";
+		};
+		805D5B4F17F83023008BA4E9 /* KLTask */ = {
+			isa = PBXGroup;
+			children = (
+				805D5B5017F83023008BA4E9 /* KLFTPAccount.h */,
+				805D5B5117F83023008BA4E9 /* KLFTPAccount.m */,
+				805D5B5217F83023008BA4E9 /* KLFTPTask.h */,
+				805D5B5317F83023008BA4E9 /* KLFTPTask.m */,
+				805D5B5417F83023008BA4E9 /* KLFTPTransferItem.h */,
+				805D5B5517F83023008BA4E9 /* KLFTPTransferItem.m */,
+			);
+			path = KLTask;
+			sourceTree = "<group>";
+		};
+		805D5B5617F83023008BA4E9 /* KLTransferModule */ = {
+			isa = PBXGroup;
+			children = (
+				805D5B5717F83023008BA4E9 /* KLFTPDownloader.h */,
+				805D5B5817F83023008BA4E9 /* KLFTPDownloader.m */,
+				805D5B5917F83023008BA4E9 /* KLFTPTaskTransfer.h */,
+				805D5B5A17F83023008BA4E9 /* KLFTPTaskTransfer.m */,
+				805D5B5B17F83023008BA4E9 /* KLFTPTransfer.h */,
+				805D5B5C17F83023008BA4E9 /* KLFTPTransfer.m */,
+				805D5B5D17F83023008BA4E9 /* KLFTPUploader.h */,
+				805D5B5E17F83023008BA4E9 /* KLFTPUploader.m */,
+			);
+			path = KLTransferModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801BD2AA17C647A30084DEEB /* KLFTPHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801BD2CE17C647A30084DEEB /* Build configuration list for PBXNativeTarget "KLFTPHelper" */;
+			buildPhases = (
+				801BD2A717C647A30084DEEB /* Sources */,
+				801BD2A817C647A30084DEEB /* Frameworks */,
+				801BD2A917C647A30084DEEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLFTPHelper;
+			productName = IDFFTPHelper;
+			productReference = 801BD2AB17C647A30084DEEB /* libKLFTPHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801BD2A317C647A30084DEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shenzhen LongVersion Media Technology Co., Ltd.";
+			};
+			buildConfigurationList = 801BD2A617C647A30084DEEB /* Build configuration list for PBXProject "KLFTPHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 801BD2A217C647A30084DEEB;
+			productRefGroup = 801BD2AC17C647A30084DEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801BD2AA17C647A30084DEEB /* KLFTPHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801BD2A717C647A30084DEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805D5B6517F83023008BA4E9 /* KLFTPDownloader.m in Sources */,
+				805D5B6017F83023008BA4E9 /* GCDAsyncSocket.m in Sources */,
+				805D5B6417F83023008BA4E9 /* KLFTPTransferItem.m in Sources */,
+				805D5B6817F83023008BA4E9 /* KLFTPUploader.m in Sources */,
+				805D5B6617F83023008BA4E9 /* KLFTPTaskTransfer.m in Sources */,
+				805D5B6717F83023008BA4E9 /* KLFTPTransfer.m in Sources */,
+				805D5B5F17F83023008BA4E9 /* KLFTPHelper.m in Sources */,
+				805D5B6217F83023008BA4E9 /* KLFTPAccount.m in Sources */,
+				805D5B6317F83023008BA4E9 /* KLFTPTask.m in Sources */,
+				805D5B6117F83023008BA4E9 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		801BD2CC17C647A30084DEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		801BD2CD17C647A30084DEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801BD2CF17C647A30084DEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/KLFTPHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLFTPHelper/KLFTPHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KLFTPHelper;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		801BD2D017C647A30084DEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DSTROOT = /tmp/KLFTPHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLFTPHelper/KLFTPHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KLFTPHelper;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801BD2A617C647A30084DEEB /* Build configuration list for PBXProject "KLFTPHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801BD2CC17C647A30084DEEB /* Debug */,
+				801BD2CD17C647A30084DEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801BD2CE17C647A30084DEEB /* Build configuration list for PBXNativeTarget "KLFTPHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801BD2CF17C647A30084DEEB /* Debug */,
+				801BD2D017C647A30084DEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801BD2A317C647A30084DEEB /* Project object */;
+}
