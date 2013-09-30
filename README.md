@@ -41,3 +41,7 @@ KLFTPHelper是一个iOS版本的FTP传输工具，支持以下特性:<br>
 
     //传输进度发生改变时的回调
     - (void)klFTPTransfer:(KLFTPTransfer *)transfer progressChangedForItem:(KLFTPTransferItem *)item
+
+##静态库
+建议将KLFTPHelper打包成静态库libKLFTPHelper.a使用，在终端运行build.sh脚本即可在工程目录下生成IDFFTPHelper_Release文件夹，其中包含arm,i386以及universal版本
+(如果提示权限不够，可使用命令： chmod 755 /path/to/build.sh)
