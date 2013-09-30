@@ -61,8 +61,8 @@
 - (NSArray *)transferItemArray
 {
     KLFTPAccount * account = [[KLFTPAccount alloc] init];
-    [account setUserName:@"ftpUser"];
-    [account setPassword:@"ftpPassword"];
+    [account setUserName:@"FTPUserName"];
+    [account setPassword:@"FTPPassword"];
     
     NSString * downloadURLStr = @"ftp://10.10.92.99/item1.dmg";
     downloadURLStr = [downloadURLStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
