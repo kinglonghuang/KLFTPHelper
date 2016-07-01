@@ -182,11 +182,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Shenzhen LongVersion Media Technology Co., Ltd.";
-				TargetAttributes = {
-					805B761E17BB2B4200EF7F80 = {
-						DevelopmentTeam = 28SVQAD54J;
-					};
-				};
 			};
 			buildConfigurationList = 805B761A17BB2B4200EF7F80 /* Build configuration list for PBXProject "TestKLFTPHelper" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -356,11 +351,12 @@
 				GCC_PREFIX_HEADER = "TestKLFTPHelper/TestKLFTPHelper-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../KLFTPHelper/KLFTPHelper\"/**";
 				INFOPLIST_FILE = "TestKLFTPHelper/TestKLFTPHelper-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KLStudio.TestKLFTPHelper;
 				PRODUCT_NAME = TestKLFTPHelper;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,17 +369,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestKLFTPHelper/TestKLFTPHelper-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../KLFTPHelper/KLFTPHelper\"/**";
 				INFOPLIST_FILE = "TestKLFTPHelper/TestKLFTPHelper-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KLStudio.TestKLFTPHelper;
 				PRODUCT_NAME = TestKLFTPHelper;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
